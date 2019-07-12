@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bj"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.afinally.MainActivity">
+
+    <LinearLayout
+        android:layout_width="330sp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/shape_corner"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="用户名："
+            android:textSize="17sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/text_main_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="请输入用户名"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="330sp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/shape_corner"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="密  码："
+            android:textSize="17sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/text_main_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText,TextFields" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="330sp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="18dp"
+        tools:ignore="RtlHardcoded">
+
+        <Button
+            android:id="@+id/btn_main_login"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_btn"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_main_register"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/shape_btn"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle,HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

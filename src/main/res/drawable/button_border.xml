@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--用以指定内部填充色-->
+    <solid android:color="#3c5cc3" />
+
+    <!--描边属性，可以定义描边的宽度，颜色，虚实线等
+    <stroke
+        android:width="3dp"
+        android:color="" />-->
+
+    <!-- 这个可以不加，padding用不上
+    <padding
+        android:bottom="1dp"
+        android:left="10dp"
+        android:right="0.5dp"
+        android:top="0dp" />-->
+    <!-- 圆角 -->
+    <corners
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+</shape>
